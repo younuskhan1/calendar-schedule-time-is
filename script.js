@@ -158,7 +158,7 @@ function addListner() {
       //if clicked prev-date or next-date switch to that month
       if (e.target.classList.contains("prev-date")) {
         prevMonth();
-        //add active to clicked day afte month is change
+        //add active to clicked day after month is change
         setTimeout(() => {
           //add active where no prev-date or next-date
           const days = document.querySelectorAll(".day");
@@ -173,7 +173,7 @@ function addListner() {
         }, 100);
       } else if (e.target.classList.contains("next-date")) {
         nextMonth();
-        //add active to clicked day afte month is changed
+        //add active to clicked day after month is changed
         setTimeout(() => {
           const days = document.querySelectorAll(".day");
           days.forEach((day) => {
