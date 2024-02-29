@@ -539,7 +539,10 @@
     }
   }
   
-  .credits {
+/* author's credits are deactivated */
+
+
+  /* .credits {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -557,4 +560,4 @@
   }
   .credits a:hover {
     text-decoration: underline;
-  }
+  } */
